@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+@layer base {
+  htm1 {
+    font-family: "Abril Fatface";
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background: linear-gradient(
+    to left,
+    #020a13,
+    #0d1319,
+    #14191e,
+    #1b1f23,
+    #212529
+  );
+}
